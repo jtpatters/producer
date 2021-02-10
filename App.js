@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import {
   StyleSheet,
   TouchableOpacity,
@@ -8,12 +8,12 @@ import {
 } from 'react-native'
 import Amplify from 'aws-amplify';
 //import config from './aws-exports';
-Amplify.configure({
-  ...config,
-  Analytics: {
-    disabled: true,
-  },
-});
+//Amplify.configure({
+//  ...config,
+//  Analytics: {
+//    disabled: true,
+//  },
+//});
 
 class App extends Component {
   state = {
